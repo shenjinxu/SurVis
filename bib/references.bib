@@ -1,0 +1,311 @@
+@article{AliReza2023HDRI,
+  abstract = {Regular cameras and cell phones are able to capture limited luminosity. Thus, in terms of quality, most of the 
+produced images from such devices are not similar to the real world. They are overly dark or too bright, and 
+the details are not perfectly visible. Various methods, which fall under the name of High Dynamic Range 
+(HDR) Imaging, can be utilised to cope with this problem. Their objective is to produce an image with more 
+details. However, unfortunately, most methods for generating an HDR image from Multi-Exposure images 
+only concentrate on how to combine different exposures and do not have any focus on choosing the best 
+details of each image. Therefore, it is strived in this research to extract the most visible areas of each image 
+with the help of image segmentation. Two methods of producing the Ground Truth were considered, as 
+manual threshold and Otsu threshold, and a neural network will be used to train segment these areas. Finally, 
+it will be shown that the neural network is able to segment the visible parts of pictures acceptably.
+},
+  author = {Ali Reza, Omrani and Davide, Moroni.},
+  doi = {10.1109/ICASSPW59220.2023.10193564},
+  journal = {2023 IEEE International Conference on Acoustics, Speech, and Signal Processing Workshops (ICASSPW) },
+  keywords = {type:Otsu Threshold, Multi-Exposure, supervised image segmentation, High Dynamic Range, Low Dynamic Range, Deep
+Learning.
+},
+  number = {08},
+  publisher = {IEEE },
+  series = {CSCV},
+  title = {Supervised Image Segmentation for High Dynamic Range Imaging},
+  url = {https://arxiv.org/abs/2212.03002},
+  volume = {1},
+  year = {2023}
+}
+
+
+@article{ChenJ2018SVM,
+  abstract = {Because the seabed sediment sonar image has the complex background and low noise-signal ratio, the existing
+image segmentation methods are difficult to extract different types of sonar image features from the complex
+background of seabed sediment sonar image. The image segmentation accuracy is low. Thus, this paper
+presents a method for segmenting seabed sediment sonar image based on multiclass SVM. Firstly, the seabed
+sediment sonar image was denoised to extract the statistical feature, texture feature and gray feature with
+phase consistency. Then they were composed into characteristic sample vectors of multidimensional seabed
+sediment sonar image. Finally, SVM classification method was used to segment the seabed sediment sonar
+image. Experimental result shows that the proposed method can obtain the result with higher recognition rate.},
+  author = {Chen, J. and Zhang, S.},
+  doi = {10.2112/SI83-098.1},
+  journal = {Advances in Sustainable Port and Ocean Engineering.},
+  keywords = {type: Multiple classification, SVM, seafloor sediment, unsupervised image segmentation, sonar image segmentation},
+  number = {03},
+  publisher = {Coconut Creek },
+  series = {CSCV},
+  title = {Segmentation of Sonar Image on Seafloor Sediments Based on Multiclass SVM},
+  url = {arXiv:2110.03477v1},
+  volume = {83},
+  year = {2018}
+}
+
+@article{Genshun2020realtime,
+  abstract = {Deep Convolutional Neural Networks (DCNNs) have
+recently shown outstanding performance in semantic image
+segmentation. However, state-of-the-art DCNN-based semantic
+segmentation methods usually suffer from high computational
+complexity due to the use of complex network architectures.
+This greatly limits their applications in the real-world scenarios
+that require real-time processing. In this paper, we propose
+a real-time high-performance DCNN-based method for robust
+semantic segmentation of urban street scenes, which achieves
+a good trade-off between accuracy and speed. Specifically, a
+Lightweight Baseline Network with Atrous convolution and
+Attention (LBN-AA) is firstly used as our baseline network to
+efficiently obtain dense feature maps. Then, the Distinctive Atrous
+Spatial Pyramid Pooling (DASPP), which exploits the different
+sizes of pooling operations to encode the rich and distinctive
+semantic information, is developed to detect objects at multiple
+scales. Meanwhile, a Spatial detail-Preserving Network (SPN)
+with shallow convolutional layers is designed to generate high•resolution feature maps preserving the detailed spatial informa•tion. Finally, a simple but practical Feature Fusion Network
+(FFN) is used to effectively combine both shallow and deep
+features from the semantic branch (DASPP) and the spatial
+branch (SPN), respectively. Extensive experimental results show
+that the proposed method respectively achieves the accuracy of
+73.6% and 68.0% mean Intersection over Union (mIoU) with
+the inference speed of 51.0 fps and 39.3 fps on the challenging
+Cityscapes and CamVid test datasets (by only using a single
+NVIDIA TITAN X card). This demonstrates that the proposed
+method offers excellent performance at the real-time speed for
+semantic segmentation of urban street scenes.
+},
+  author = {Genshun, Dong and Yan, Yan and Chunhua, Shen and Hanzi, Wang,.},
+  doi = {10.1109/TITS.2020.2980426},
+  journal = {IEEE Transactions on Intelligent Transportation Systems  },
+  keywords = {type: Semantics,Real-time systems,supervised image segmentation,Convolution,Intelligent transportation systems,Task analysis,Computational modeling},
+  number = {10},
+  publisher = {IEEE },
+  series = {CSCV},
+  title = {Real-Time High-Performance Semantic Image Segmentation of Urban Street Scenes},
+  url = {https://ieeexplore.ieee.org/document/9042876/keywords#keywords},
+  volume = {22},
+  year = {2020}
+}
+
+@article{GuoqinLi2023TPGAN,
+  abstract = {Deep learning-based medical image segmentation requires a large number of labeled data to 
+train the model. Obtaining large-scale labeled medical image datasets is time-consuming and 
+expensive. In contrast, it is easy to obtain unlabeled data, which also deserve to be efectively 
+explored to improve the segmentation quality. To solve this problem, we proposed a semi-super•vised deep learning method based on Generative Adversarial Network (GAN) in combination 
+with a pyramid attention mechanism and transfer learning (TP-GAN). In this work, TP-GAN 
+consisted of a generator (segmentation network) and a discriminator (evaluation network). The 
+generator adopted the encoder-decoder architecture for image segmentation (the output was 
+called the predicted map), and the discriminator adopted convolutional neural network (CNN) 
+to evaluate the quality of the predicted map. Through adversarial training between generator 
+and discriminator, TP-GAN could achieve high segmentation quality since discriminator guides 
+the generator to generate more accurate segmentation maps with more similar distribution as 
+ground truth for unlabeled data in semi-supervised learning. Furthermore, the encoder in gen•erator utilized the VGG16 model which had been trained for image classifcation on ImageNet 
+data, meanwhile constituted a new segmentation model with the decoder. Transfer learning 
+strategy could reduce the training time and overcome the limitation of small-scale labeled data 
+in semi-supervised learning. And the generator used image pyramid attention mechanism to 
+extract more detailed features to enhance the information of feature maps. The proposed TP•GAN model and other segmentation models were trained and tested on two diferent datasets 
+(Hippocampus and Spleen). The results demonstrated that TP-GAN could achieve higher seg•mentation accuracy on the Hippocampus and Spleen than other semi-supervised segmentation 
+methods based on diferent evaluation metrics (Dice, IoU, HD, and RVE). The proposed TP•GAN model could efectively utilize the unlabeled data to improve the segmentation quality. 
+And TP-GAN could relieve the burden of a tedious image annotation process and reduce the 
+infuence of physicians’ subjective experiences in clinical practice.
+},
+  author = {Guoqin, Li and Jin, Wang and Yanli, Tan and Lingyun, Shen and Dongli, Jiao and Quan, Zhang.},
+  doi = {10.1007/s11042-023-16213-z},
+  journal = {Multimedia Tools and Applications },
+  keywords = {type:Medical image segmentation, GAN, encoder-decoder , supervised image segmentation, Transfer learning , 
+Image pyramid,},
+  number = {07},
+  publisher = {Department of Electronic Engineering, Taiyuan Institute of Technology },
+  series = {CSCV},
+  title = {Semi-supervised medical image segmentation based on GAN with the pyramid attention mechanism and transfer learning},
+  url = {https://link.springer.com/article/10.1007/s11042-023-16213-z },
+  volume = {83},
+  year = {2023}
+}
+
+@article{HeX2019CoconutCreek,
+  abstract = {A new image segmentation method based on finite
+ truncated Gaussian mixture model has been proposed.
+ The truncated Gaussian distribution includes several
+ of the skewed and asymmetric distributions as par
+ ticular cases with a finite range. It also includes the
+ Gaussian distribution as a limiting case. We used the
+ Estimation Maximization algorithm to estimate the
+ model parameters of the image data and the number
+ of mixture components was estimated using hierarchi
+ cal clustering algorithm. This algorithm was also util
+ ized for developing the initial estimates of the EM
+ algorithm. Segmentation was carried out by clustering
+ each pixel into the appropriate component according
+ to the maximum likelihood estimation criteria. The
+ advantage of our method lies in its efficiency on ini
+ tialization of the model parameters and segmenting
+ images in a totally unsupervised manner. Experimen
+ tal results show that this segmentation method can
+ provide better results than the other m},
+  author = {Srinivas, Yarramalle1 and K.Sri},
+  doi = {10.1007/978-3-642-24055-3_7},
+  journal = {Current Science},
+  keywords = {type: EM algorithm, unsupervised image segmentation, image quality metrics, truncated Gaussian mixture distr,Unsupervised learning},
+  number = {02},
+  publisher = {Current Science Association},
+  series = {TVCG},
+  title = {Unsupervised image segmentation using finite doubly truncated Gaussian mixture
+model and hierarchical clustering},
+  url = {https://www.jstor.org/stable/24099217},
+  volume = {93},
+  year = {2007}
+}
+
+@article{Olaf2015Unet,
+  abstract = {There is large consent that successful training of deep networks requires many thousand annotated training samples. In this paper, we present a network and training strategy that relies on the strong
+use of data augmentation to use the available annotated samples more
+efficiently. The architecture consists of a contracting path to capture
+context and a symmetric expanding path that enables precise localization. We show that such a network can be trained end-to-end from very
+few images and outperforms the prior best method (a sliding-window
+convolutional network) on the ISBI challenge for segmentation of neuronal structures in electron microscopic stacks. Using the same network trained on transmitted light microscopy images (phase contrast
+and DIC) we won the ISBI cell tracking challenge 2015 in these categories by a large margin. Moreover, the network is fast. Segmentation
+of a 512x512 image takes less than a second on a recent GPU. The full
+implementation (based on Caffe) and the trained networks are available
+at http://lmb.informatik.uni-freiburg.de/people/ronneber/u-net
+.
+},
+  author = {Olaf , Ronneberger and Philipp , Fischer and Thomas, Brox
+.},
+  doi = {10.1007/978-3-319-24574-4_28},
+  journal = {Medical Image Computing and Computer-Assisted Intervention – MICCAI 2015 },
+  keywords = {type: Training Image,
+Data Augmentation,
+supervised image segmentation,
+Convolutional Layer,
+Deep Network,
+Ground Truth Segmentation},
+  number = {05},
+  publisher = {Springer, Cham },
+  series = {CSCV},
+  title = {U-Net: Convolutional Networks for Biomedical Image Segmentation},
+  url = {arXiv:1505.04597 },
+  volume = {9351},
+  year = {2015}
+}
+
+@article{RobertHerb2021InfoSeg,
+  abstract = {We propose a novel method for unsupervised semantic im•age segmentation based on mutual information maximization between
+local and global high-level image features. The core idea of our work is
+to leverage recent progress in self-supervised image representation learn•ing. Representation learning methods compute a single high-level feature
+capturing an entire image. In contrast, we compute multiple high-level
+features, each capturing image segments of one particular semantic class.
+To this end, we propose a novel two-step learning procedure comprising
+a segmentation and a mutual information maximization step. In the first
+step, we segment images based on local and global features. In the sec•ond step, we maximize the mutual information between local features
+and high-level features of their respective class. For training, we provide
+solely unlabeled images and start from random network initialization. For
+quantitative and qualitative evaluation, we use established benchmarks,
+and COCO-Persons, whereby we introduce the latter in this paper as a
+challenging novel benchmark. InfoSeg significantly outperforms the cur•rent state-of-the-art, e.g., we achieve a relative increase of 26 % in the
+Pixel Accuracy metric on the COCO-Stuff dataset.},
+  author = {Robert, Harb and Patrick, Knobelreiter},
+  doi = {10.1007/978-3-030-92659-5_2},
+  journal = {German Conference on Pattern Recognition},
+  keywords = {type: Representation Learning, unsupervised image segmentation },
+  number = {03},
+  publisher = {Institute of Computer Graphics and Vision, Graz University of Technology, Austria},
+  series = {CSCV},
+  title = {InfoSeg: Unsupervised Semantic Image Segmentation with Mutual Information Maximization},
+  url = {arXiv:2110.03477v1},
+  volume = {7},
+  year = {2021}
+}
+
+@article{Vijay2017SegNet,
+  abstract = {We present a novel and practical deep fully convolutional neural network architecture for semantic pixel-wise segmentation
+termed SegNet. This core trainable segmentation engine consists of an encoder network, a corresponding decoder network followed
+by a pixel-wise classification layer. The architecture of the encoder network is topologically identical to the 13 convolutional layers in the
+VGG16 network [1]. The role of the decoder network is to map the low resolution encoder feature maps to full input resolution feature
+maps for pixel-wise classification. The novelty of SegNet lies is in the manner in which the decoder upsamples its lower resolution input
+feature map(s). Specifically, the decoder uses pooling indices computed in the max-pooling step of the corresponding encoder to
+perform non-linear upsampling. This eliminates the need for learning to upsample. The upsampled maps are sparse and are then
+convolved with trainable filters to produce dense feature maps. We compare our proposed architecture with the widely adopted FCN [2]
+and also with the well known DeepLab-LargeFOV [3], DeconvNet [4] architectures. This comparison reveals the memory versus
+accuracy trade-off involved in achieving good segmentation performance.
+SegNet was primarily motivated by scene understanding applications. Hence, it is designed to be efficient both in terms of memory and
+computational time during inference. It is also significantly smaller in the number of trainable parameters than other competing
+architectures and can be trained end-to-end using stochastic gradient descent. We also performed a controlled benchmark of SegNet
+and other architectures on both road scenes and SUN RGB-D indoor scene segmentation tasks. These quantitative assessments
+show that SegNet provides good performance with competitive inference time and most efficient inference memory-wise as compared
+to other architectures. We also provide a Caffe implementation of SegNet and a web demo at http://mi.eng.cam.ac.uk/projects/segnet/.
+},
+  author = {Vijay, Badrinarayanan and Alex, Kendall and Roberto, Cipolla.},
+  doi = {10.1109/TPAMI.2016.2644615},
+  journal = {IEEE Transactions on Pattern Analysis and Machine Intelligence },
+  keywords = {type: Deep Convolutional Neural Networks,supervised image segmentation, Semantic Pixel-Wise Segmentation, Indoor Scenes, Road Scenes, Encoder,
+Decoder, Pooling, Upsampling.},
+  number = {11},
+  publisher = {IEEE },
+  series = {CSCV},
+  title = {SegNet: A Deep Convolutional Encoder-Decoder Architecture for Image Segmentation},
+  url = {https://ieeexplore.ieee.org/document/7803544},
+  volume = {39},
+  year = {2017}
+}
+
+@article{XideXia2017Wnet,
+  abstract = {While significant attention has been recently focused
+on designing supervised deep semantic segmentation algo•rithms for vision tasks, there are many domains in which
+sufficient supervised pixel-level labels are difficult to obtain.
+In this paper, we revisit the problem of purely unsupervised
+image segmentation and propose a novel deep architecture
+for this problem. We borrow recent ideas from supervised
+semantic segmentation methods, in particular by concate•nating two fully convolutional networks together into an
+autoencoder—one for encoding and one for decoding. The
+encoding layer produces a k-way pixelwise prediction, and
+both the reconstruction error of the autoencoder as well
+as the normalized cut produced by the encoder are jointly
+minimized during training. When combined with suitable
+postprocessing involving conditional random field smooth•ing and hierarchical segmentation, our resulting algorithm
+achieves impressive results on the benchmark Berkeley Seg•mentation Data Set, outperforming a number of competing
+methods},
+  author = {Xide,Xia and Brian, Kulis.},
+  doi = {10.48550/arXiv.1711.08506},
+  journal = {arXiv.org},
+  keywords = {type:Wnet Autoencoders, Vision Tasks, hierachical Segmentation, Unsupervised image segmentation},
+  number = {03},
+  publisher = {arXiv},
+  series = {CSCV},
+  title = {W-Net: A Deep Model for Fully Unsupervised Image Segmentation},
+  url = {arXiv:1711.08506},
+  volume = {1},
+  year = {2017}
+}
+
+@article{Zihui2022realtime,
+  abstract = {Real-time semantic segmentation of street view 
+images can be used as a visual aid system during autonomous 
+driving. This paper proposes a multi-branch cross-layer fusion 
+network( MCFNet). The model uses a multi-branch network to 
+extract features, fuses the features of different stages of multiple 
+branches for prediction, and uses a lightweight depthwise 
+separable convolution to reduce the amount of computation. We 
+use the Cityscapes dataset to train and evaluate the algorithm 
+and get 61.6% mIoU and 115.3 fps. Keywords—Semantic 
+Segmentation, Convolutional Neural Networks, Separable 
+Convolutions.
+},
+  author = {Zihui, Zhu and Wenlin, Cai and  Jianhua, Li and Feng, Xue and Lu, Gao and  Jiaqi, Liu.},
+  doi = {10.1109/ACES-China56081.2022.10064978},
+  journal = {2022 International Applied Computational Electromagnetics Society Symposium (ACES-China) },
+  keywords = {type: Cross layer design,Visualization,Convolution,Semantic segmentation,Roads,Semantics,supervised image segmentation,Feature extraction
+},
+  number = {09},
+  publisher = {IEEE },
+  series = {CSCV},
+  title = {Semantic Segmentation Algorithm of Street View Image Via Deep Learning},
+  url = {https://ieeexplore.ieee.org/document/10064978/authors#authors},
+  volume = {1},
+  year = {2022}
+}
+
